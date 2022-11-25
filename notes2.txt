@@ -1,10 +1,10 @@
 #!/bin/bash
 
-x = $((RANDOM%3+1));
-y = $((RANDOM%3+1));
+x=$((RANDOM%3+1));
+y=$((RANDOM%3+1));
 
-z = $(( $x + $y ));
+z=$(( $x + $y ));
 
-echo $x;
-echo $y;
-echo $z;
+echo "x=$x";
+echo "y=$y";
+echo "z=x+y=$z";

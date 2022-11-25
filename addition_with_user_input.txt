@@ -1,0 +1,10 @@
+#!/bin/bash
+
+read -p "enter value of x: " x;
+read -p "enter value of y: " y;
+
+adiition=$(($x+$y));
+substraction=$(($x+$y));
+
+echo$addition;
+echo$substraction;
