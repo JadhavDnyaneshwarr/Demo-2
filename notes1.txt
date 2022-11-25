@@ -1,0 +1,5 @@
+#!/bin/bash
+
+a=$((RANDOM%89+10));
+
+echo "The two digit random number is $a"
