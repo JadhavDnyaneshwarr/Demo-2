@@ -1,0 +1,54 @@
+#!/bin/bash
+
+#single digit random number
+
+a=$((RANDOM%9));
+echo "The single digit random number is $a";
+echo " ";
+
+#Random Dice Number between 1 to 6
+
+b=$((RANDOM%5+1));
+echo "The Random Dice number is $b";
+echo " ";
+
+#Addittion two Random Dice Number
+
+c=$((RANDOM%5+1));
+d=$(($b+$c));
+echo $b, $c;
+echo "The Addittion two Random Dice Number is $d";
+echo " ";
+
+#5 Random 2 Digit values sum and the average
+
+e=$((RANDOM%89+10));
+f=$((RANDOM%89+10));
+g=$((RANDOM%89+10));
+h=$((RANDOM%89+10));
+i=$((RANDOM%89+10));
+j=$(($e+$f+$g+$h+$i));
+k=$(($j/5));
+echo $e, $f, $g, $h, $i;
+echo "The average of 5 random 2 digit number is $k";
+echo " ";
+
+
+#Unit Conversion
+
+#1.inch into ft-
+
+A=12;
+B=42;
+C=$(($B/$A))
+echo " the 1ft = 12 in then 42 in = $C ft";
+echo " ";
+
+#2. ft into meter-
+
+D=60;
+E=40;
+F=$(($B*$A));
+G=$(($F*0.3048));
+echo " the Rectangular Plot of 60 feet x 40 feet is $G";
+echo " ";
