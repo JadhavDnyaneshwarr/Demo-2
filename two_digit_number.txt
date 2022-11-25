@@ -1,7 +1,7 @@
 #!/bin/bash
 
-A=$((RANDOM89+10));
-B=$((RANDOM899+100));
+A=$((RANDOM%89+10));
+B=$((RANDOM8%99+100));
 
 echo "the two digit Random number is $A";
 echo "the three digit Random number is $B";
